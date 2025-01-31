@@ -67,11 +67,60 @@ header a{
     border-bottom: 1px solid black;
     height: 40px;
 }
+#banner{
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+
+}
+#banner-content{
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    align-items: center;
+    background-image: url("c1-assets/cat-big.png");
+    background-position: right;
+    background-position-y: -120px ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px;
+    margin-bottom: -80px;
+}
+.avatar{
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+}
+#Catagories{
+    padding-left: 70px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+.Catagories{
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+}
+#catagories img{
+    padding: 10px;
+    background-color: white;
+}
+#products{
+    background-color: antiquewhite;
+    padding-top: 30PX;
+    padding-left: 70px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
 @media only screen and (max-width: 560px){
     #header{
         display: none; 
     }
-
+    .Catagories{
+        width: 50%;
+    }
 }
 @media only screen and (min-width: 1100px){
     #header-mobile{

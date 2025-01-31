@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <title>PET-SHOP</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 <body>
     <header>
@@ -35,5 +38,191 @@
             </div>
         </div>
     </header>
+    <main>
+                <!-- Banner -->
+        <div id="banner">
+            <div id="banner-content">
+                <h1 class="text-2xl font-bold ...">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
+                <p class="text-sm font-normal mt-4 ...">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+                <button class="btn btn-warning sm:btn-sm mt-4"><a href="#">Find a pet</a></button>
+            </div>
+        </div>
+                <!-- Catagories -->
+        <div id="Catagories">
+            <div class="grid grid-cols-6 grid-flow-row gap-1 place-items-center">
+                <div class="Catagories bg-orange-300 p-12 items-center ">
+                    <img src="c1-assets/dog-cartoon.png" alt="" class="bg-white p-3 rounded-full">
+                    <p class="text-l font-bold items-center">Dog</p>
+                    <p>3 Items</p> 
+                </div>
+                <div class="Catagories bg-orange-300 p-12 items-center">
+                    <img src="c1-assets/fish-cartoon.png" alt="" class="bg-white p-3 rounded-full">
+                    <p class="text-l font-bold items-center">Fish</p>
+                    <p>3 Items</p>
+                </div>
+                <div class="Catagories bg-orange-300 p-12 items-center ">
+                    <img src="c1-assets/cat-cartoon.png" alt="" class="bg-white p-3 rounded-full">
+                    <p class="text-l font-bold items-center">Cat</p>
+                    <p>3 Items</p>
+                </div>
+                <div class="Catagories bg-orange-300 p-12 items-center ">
+                    <img src="c1-assets/bird-cartoon.png" alt="" class="bg-white p-3 rounded-full">
+                    <p class="text-l font-bold items-center">Birds</p>
+                    <p>3 Items</p>
+                </div>
+                <div class="Catagories bg-orange-300 p-12 items-center ">
+                    <img src="c1-assets/mouse-cartoon.png" alt="" class="bg-white p-3 rounded-full">
+                    <p class="text-l font-bold items-center">Small Pets</p>
+                    <p>3 Items</p> 
+                </div>
+                <div class="Catagories bg-orange-300 p-12 items-center ">
+                    <img src="c1-assets/rabbit-cartoon.png" alt="" class="bg-white p-3 rounded-full">
+                    <p class="text-l font-bold items-center ">Rabbit</p>
+                    <p>3 Items</p>
+                </div>
+            </div>
+        </div>
+        <!-- Product -->
+         <div id="products">
+            <h1 class="text-2xl font-bold mb-4 ...">Trending Pet Products</h1>
+            <div class="grid grid-cols-5 grid-rows-3 gap-4">
+                <div class="row-span-3 col-span-2 bg-orange-300 p-3 rounded-xl" id="product-article">
+                    <article>
+                        <img class="float-right ..." src="c1-assets/cute-pet-small.png" />
+                        <h1 class="text-2xl font-bold ...">T- Shirt For Dogs</h1>
+                        <p class="text-sm font-normal mt-4 ...">Discover a world of treats, toys, and essentials handpicked for </p>
+                        <button class="btn btn-outline sm:btn-sm mt-4 bg-white">Default</button>
+                    </article>
+                </div>
+                <div class="flex items-center gap-4 bg-white rounded-xl pl-3">
+                    <div class="avatar">
+                      <div class="mask mask-squircle h-12 w-12" >
+                        <img
+                          src="c1-assets/dog-cartoon.png"
+                          alt="Avatar Tailwind CSS Component" />
+                      </div>
+                    </div>
+                    <div>
+                      <div class="text-sm opacity-50"><i class="fa-solid fa-star"> 4.5</i></div>
+                      <div class="font-bold">Pet Bed</div>
+                      <div class="text-sm opacity-50">$39.99</div>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-4 bg-white rounded-xl pl-3">
+                    <div class="avatar">
+                      <div class="mask mask-squircle h-12 w-12" >
+                        <img
+                          src="c1-assets/cat-cartoon.png"
+                          alt="Avatar Tailwind CSS Component" />
+                      </div>
+                    </div>
+                    <div>
+                      <div class="text-sm opacity-50"><i class="fa-solid fa-star"> 4.5</i></div>
+                      <div class="font-bold">Pet Bed</div>
+                      <div class="text-sm opacity-50">$39.99</div>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-4 bg-white rounded-xl pl-3">
+                    <div class="avatar">
+                      <div class="mask mask-squircle h-12 w-12" >
+                        <img
+                          src="c1-assets/rabbit-cartoon.png"
+                          alt="Avatar Tailwind CSS Component" />
+                      </div>
+                    </div>
+                    <div>
+                      <div class="text-sm opacity-50"><i class="fa-solid fa-star"> 4.5</i></div>
+                      <div class="font-bold">Pet Bed</div>
+                      <div class="text-sm opacity-50">$39.99</div>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-4 bg-white rounded-xl pl-3">
+                    <div class="avatar">
+                      <div class="mask mask-squircle h-12 w-12" >
+                        <img
+                          src="c1-assets/fish-cartoon.png"
+                          alt="Avatar Tailwind CSS Component" />
+                      </div>
+                    </div>
+                    <div>
+                      <div class="text-sm opacity-50"><i class="fa-solid fa-star"> 4.5</i></div>
+                      <div class="font-bold">Pet Bed</div>
+                      <div class="text-sm opacity-50">$39.99</div>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-4 bg-white rounded-xl pl-3">
+                    <div class="avatar">
+                      <div class="mask mask-squircle h-12 w-12" >
+                        <img
+                          src="c1-assets/bird-cartoon.png"
+                          alt="Avatar Tailwind CSS Component" />
+                      </div>
+                    </div>
+                    <div>
+                      <div class="text-sm opacity-50"><i class="fa-solid fa-star"> 4.5</i></div>
+                      <div class="font-bold">Pet Bed</div>
+                      <div class="text-sm opacity-50">$39.99</div>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-4 bg-white rounded-xl pl-3">
+                    <div class="avatar">
+                      <div class="mask mask-squircle h-12 w-12" >
+                        <img
+                          src="c1-assets/mouse-cartoon.png"
+                          alt="Avatar Tailwind CSS Component" />
+                      </div>
+                    </div>
+                    <div>
+                      <div class="text-sm opacity-50"><i class="fa-solid fa-star"> 4.5</i></div>
+                      <div class="font-bold">Pet Bed</div>
+                      <div class="text-sm opacity-50">$39.99</div>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-4 bg-white rounded-xl pl-3">
+                    <div class="avatar">
+                      <div class="mask mask-squircle h-12 w-12" >
+                        <img
+                          src="c1-assets/pet-couch.png"
+                          alt="Avatar Tailwind CSS Component" />
+                      </div>
+                    </div>
+                    <div>
+                      <div class="text-sm opacity-50"><i class="fa-solid fa-star"> 4.5</i></div>
+                      <div class="font-bold">Pet Bed</div>
+                      <div class="text-sm opacity-50">$39.99</div>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-4 bg-white rounded-xl pl-3">
+                    <div class="avatar">
+                      <div class="mask mask-squircle h-12 w-12" >
+                        <img
+                          src="c1-assets/rabbit-cartoon.png"
+                          alt="Avatar Tailwind CSS Component" />
+                      </div>
+                    </div>
+                    <div>
+                      <div class="text-sm opacity-50"><i class="fa-solid fa-star"> 4.5</i></div>
+                      <div class="font-bold">Pet Bed</div>
+                      <div class="text-sm opacity-50">$39.99</div>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-4 bg-white rounded-xl pl-3">
+                    <div class="avatar">
+                      <div class="mask mask-squircle h-12 w-12" >
+                        <img
+                          src="c1-assets/dog-cartoon.png"
+                          alt="Avatar Tailwind CSS Component" />
+                      </div>
+                    </div>
+                    <div>
+                      <div class="text-sm opacity-50"><i class="fa-solid fa-star"> 4.5</i></div>
+                      <div class="font-bold">Pet Bed</div>
+                      <div class="text-sm opacity-50">$39.99</div>
+                    </div>
+                  </div>
+            </div>
+         </div>
+        
+    </main>
 </body>
 </html>
