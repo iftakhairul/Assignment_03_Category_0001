@@ -119,6 +119,10 @@ header a{
     width: 100%;
     border-radius: 10px;
 }
+#products-mobile img{
+    height: 300px;
+    width: auto;
+}
 #price{
     display: flex;
     margin-top: 20px;
