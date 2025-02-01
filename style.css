@@ -112,9 +112,12 @@ header a{
 #products-mobile{
     background-color: antiquewhite;
     padding-top: 30PX;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 0;
     padding-bottom: 30px;
+    width: 100%;
+    border-radius: 10px;
 }
 #price{
     display: flex;
@@ -159,7 +162,7 @@ header a{
     bottom: 0;
     left: 40px;
     bottom: 40px;
-    width: 25%;
+    margin-top: 150px;
 }
 
 footer{
@@ -183,26 +186,32 @@ footer span{
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
+    margin-top: 200px;
 }
 #footer-logo{
     display: flex;
     align-items: center;
+
 }
 #find{
     display: block;
     width: 25%;
+    margin-top: 150px;
+}
+#socail{
+    margin-top: 150px;  
 }
 #Challange-1{
     display: flex;
     background-color: antiquewhite;
     position: relative;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 30px;
+    margin-left: 30px;
     margin-top: 30px;
     gap: 50px;
     padding-right: 50px;
     border-radius: 10px;
-    margin-bottom: -210px;
+    margin-bottom: -450px;
 }
 #Challange-1-img{
     width: 200px;
@@ -313,6 +322,36 @@ footer span{
     #footer{
         display: block;
         gap: 20px;
+    }
+    #Challange-1{
+        display: block;
+        text-align: center;
+    }
+    #footer{
+        display: block;
+        height: 800px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 200px;
+}
+    #browse{
+        width: 100%;
+        margin-top: 10px;
+    }
+    #footer-paragragh{
+        text-align: left;
+        width: 100%;
+    }
+    #find{
+        width: auto;
+        margin-top: 10px;
+    }
+    #socail{
+        width: auto;
+        margin-top: 10px;
+    }
+    #Challange-1{
+        margin-bottom: -600px;
     }
 }
 @media only screen and (min-width: 1100px){
