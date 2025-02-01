@@ -154,6 +154,74 @@ header a{
     position: absolute;
     top: 35%;
 }
+#Browse{
+    display: block;
+    bottom: 0;
+    left: 40px;
+    bottom: 40px;
+    width: 25%;
+}
+
+footer{
+    background-color: rgb(231, 231, 196);margin-top: 20px;
+}
+footer img{
+    height: 30px;
+    width: auto;
+}
+footer span{
+    color: rgb(248, 178, 47);
+}
+#footer-paragragh{
+    margin-top: 10px;
+}
+#footer{
+    display: flex;
+    height: 500px;
+    align-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#footer-logo{
+    display: flex;
+    align-items: center;
+}
+#find{
+    display: block;
+    width: 25%;
+}
+#Challange-1{
+    display: flex;
+    background-color: antiquewhite;
+    position: relative;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    gap: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    margin-bottom: -210px;
+}
+#Challange-1-img{
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+
+}
+#challange-1 img{
+    width: 100px;
+}
+#Challange-1-content{
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+    padding-top: 50px;
+
+}
 @media only screen and (max-width: 560px){
     #header{
         display: none; 
@@ -216,9 +284,6 @@ header a{
     #price-2{
         width: 100%;
         height: 320px;
-        width: 100%;
-        margin-bottom: 15px;
-        position: relative;
     }
     #price-1-img{
         position: absolute;
@@ -234,6 +299,20 @@ header a{
     }
     #price-hide-2{
         display: none;
+    }
+    header{
+        background-color: blanchedalmond;
+    }
+    header img{
+        height: 30px;
+        width: auto;
+    }
+    header span{
+        color: rgb(248, 178, 47);
+    }
+    #footer{
+        display: block;
+        gap: 20px;
     }
 }
 @media only screen and (min-width: 1100px){
