@@ -109,6 +109,13 @@ header a{
     padding-right: 30px;
     padding-bottom: 30px;
 }
+#products-mobile{
+    background-color: antiquewhite;
+    padding-top: 30PX;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
 @media only screen and (max-width: 560px){
     #header{
         display: none; 
@@ -150,6 +157,9 @@ header a{
     .Catagories img{
         float: center;
     }
+    #products{
+        display: none;
+    }
 }
 @media only screen and (min-width: 1100px){
     #header-mobile{
@@ -159,6 +169,9 @@ header a{
         display: none;
     }
     #Catagories-content-mobile{
+        display: none;
+    }
+    #products-mobile{
         display: none;
     }
 }
