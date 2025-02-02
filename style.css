@@ -71,6 +71,7 @@ header a{
     padding-left: 30px;
     padding-right: 30px;
     position: relative;
+    margin-bottom: 20px;
 
 }
 #banner-content{
@@ -260,7 +261,7 @@ footer span{
         display: none;
     }
     #banner{
-        height: 400px;
+        height: 350px;
         position: relative;
         width: 100%;
         padding-left: 30px;
@@ -280,7 +281,6 @@ footer span{
     #banner-content{
         padding-left: 10px;
         padding-right: 0;
-        margin-bottom: 10px;
         justify-content: center;
     }
     #Catagories-content{
