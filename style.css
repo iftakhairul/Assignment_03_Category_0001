@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    width: auto;
 }
 header{
     background-color: blanchedalmond;
@@ -254,6 +255,12 @@ footer span{
 
 }
 @media only screen and (max-width: 560px){
+    *{
+        margin: 0;
+    }
+    body{
+        width: 100%;
+    }
     #header{
         display: none; 
     }
